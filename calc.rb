@@ -1,6 +1,6 @@
 puts "Enter a number: "
-num1 = gets
+num1 = gets.to_f
 puts "Enter another number: "
-num2 = gets
+num2 = gets.to_f
 
-puts (num1.to_f + num2.to_f)
+puts (num1 + num2)
